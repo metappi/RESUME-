@@ -43,14 +43,19 @@
   
 }
 
-.top-pics{
 
-}
 .top-picture {
   height:450px;
   background-image: url(https://d20r2glx6euv0l.cloudfront.net/cover/79ff7da904.jpg );
   background-size:cover;
   position:relative;
+}
+
+.top-pic{
+  display:flex;
+  justify-content:center;
+  position:relative;
+  bottom:75px;
 }
 
 .profile-pic{
@@ -60,22 +65,15 @@
   border-radius:50%;
   background-image: url(image/profile-pic.jpg) ;  
   background-size:100% 100%;
-  position:center;
+  
+
 }
 
-.soto-box{
-  width:850px;
-  margin:0 auto;
-}
-.top-wrapper{
-  text-align:center;
-  height:235px;
-  
-}
+
 
 .top-wrapper-name{
-  margin-top:94px;
   font-size:15px;
+  text-align:center;
 }
 
 .container1{
@@ -123,4 +121,19 @@ justify-content:center;
   padding:63px 300px 0px 300px;
   background-color:#eeeeee;
   height:3250px;
+}
+
+.contact{
+  position:fixed;
+  top:900px;
+  right:100px;
+}
+
+.contact-btn{
+  border-radius : 20px;
+  text-decoration:none;
+  color: white;
+  padding: 13px 18px;
+  background-color:#414040;
+  font-size:15px;
 }
